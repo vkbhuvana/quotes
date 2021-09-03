@@ -1,11 +1,16 @@
+// library imports
 import React from 'react';
-import {View, Text} from 'react-native';
+import { View, Text } from 'react-native';
+
+// screens
+import Home from './src/screens/Home';
+
+/**
+ * @function App
+ * @returns {JSX}
+ */
 const App = () => {
-  return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>{'Home'}</Text>
-    </View>
-  );
+  return <Home />;
 };
 
 export default App;
